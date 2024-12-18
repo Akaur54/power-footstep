@@ -12,6 +12,7 @@ import Blog2 from './components/Blog2';
 import Framework from './components/Framework';
 import Analysis from './components/Analysis';
 import LM from './components/LM';
+import Intro from './components/Intro';
 
 
 
@@ -34,6 +35,7 @@ function App() {
                 <Route path='/framework' element={<Framework/>}/>
                 <Route path='/analysis' element={<Analysis/>}/>
                 <Route path='/lm' element={<LM/>}/>
+                <Route path='/intro' element={<Intro/>}/>
               </Routes>
             </main>
           </div>

@@ -29,7 +29,7 @@ function Hero() {
             className="w-full h-full bg-cover"
             style={{
               backgroundImage:
-                'url(https://cdn.gamma.app/ezc47zrdpbz81cu/generated-images/O3zVL45rgGtGhur7IpxbF.jpg)',
+                `url('/images/main.png')`,
             }}
           >
             <div className="w-full h-full bg-black opacity-25"></div>

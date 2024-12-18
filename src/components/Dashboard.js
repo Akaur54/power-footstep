@@ -4,6 +4,7 @@ import Features from './Features';
 import FAQ from './FAQ';
 import Work from './Work';
 import Blog from './Blog';
+import Intro from './Intro';
 
 
 function Dashboard() {
@@ -13,6 +14,7 @@ function Dashboard() {
       <Work/>
       <Blog/>
       <Features/>
+      <Intro/>
       <FAQ/>
     </>
   );
